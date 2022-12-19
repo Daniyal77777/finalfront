@@ -1,0 +1,88 @@
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-right: 50px;
+}
+h1{
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+.nav1{
+    background-color: silver;
+    border: none;
+    border-radius: 15px;
+    color: rgb(50, 50, 50);
+    font-size: 20px;
+}
+.nav1:hover{
+    background-color: rgb(81, 81, 81);
+}
+.opisanie{
+    max-width: 260px;
+}
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.mini-photo{
+    width: 250px;
+    /* height: 250px; */
+    border-radius: 20px;
+    border: black solid 3px;
+}
+.mini-photo_souse{
+    width: 250px;
+    border-radius: 25px;
+}
+.price-container{
+    display: flex; 
+    align-items: center;
+    gap: 100px;
+}
+.price{
+    font-size: 25px;
+}
+.korzina{
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.korzina:hover{
+    color: red;
+    animation: backwards;
+}
+.count-buttoms{
+    background-color: rgba(255, 255, 0, 0);
+    border: none;
+    font-size: 25px;
+    font-weight: 100;
+}
+.soda{
+    border: silver 2px solid;
+    border-radius: 20px 20px 0 0 ;
+}
+.soda-souse{
+    border-radius: 25px 25px 0 0;
+}
+.goBack{
+    border: none;
+    margin-left: 280;
+    font-size: 35px;
+}
+.goBack:hover{
+    background-color: red;
+}
+.soda-souse{
+    height: 500px;
+    border: solid silver 2px;
+}
