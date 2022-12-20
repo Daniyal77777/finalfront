@@ -11,9 +11,12 @@ a{
 .mini-containere{
     border: 2px solid silver;
     border-radius: 20px 20px 0 0 ;
+    height: 500px;
+    width: 250px;
+
 }
-.mini-photo_souse{
-    border-radius: 20px 20px 0 0 ;
+.photo-container{
+
 }
 .nav1{
     background-color: silver;
@@ -39,11 +42,13 @@ a{
 }
 .mini-photo{
     width: 250px;
-    /* height: 250px; */
+    height: 250px;
     border-radius: 20px;
 }
 .mini-photo_souse{
     width: 250px;
+    height: 250px;
+    border-radius: 20px 20px 0 0 ;
 }
 .goBack{
     font-size: 45px;
@@ -56,6 +61,7 @@ a{
     display: flex; 
     align-items: center;
     gap: 100px;
+    width: 250px;
 }
 .price{
     font-size: 25px;
